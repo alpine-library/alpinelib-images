@@ -32,12 +32,8 @@ if [ "${#repos[@]}" -eq 0 ]; then
 	exit
 fi
 
-# --no-build because we has no Docker in Travis :)
-# TODO that will change eventually!
-
 set -x
 ./bashbrew.sh list --namespaces="alpine-library" --uniq "${repos[@]}"
 ./bashbrew.sh list --namespaces="alpine-library" "${repos[@]}"
-./bashbrew.sh build --namespaces="alpine-library" --no-build "${repos[@]}"
+./bashbrew.sh build --namespaces="alpine-library" "${repos[@]}"
 ./bashbrew.sh push --namespaces="alpine-library" --no-push "${repos[@]}"
-# TODO ./bashbrew.sh list "${repos[@]}" | xargs ../test/run.sh

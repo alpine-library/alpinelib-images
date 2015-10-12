@@ -1,7 +1,9 @@
 language: bash
 
-# allow for use of Docker-based workers
-sudo: false
+sudo: required
+
+services:
+  - docker
 
 before_script:
     - env | sort
