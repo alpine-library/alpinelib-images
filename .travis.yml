@@ -6,7 +6,6 @@ services:
   - docker
 
 before_script:
-    - env | sort
     - chmod +x ./bashbrew/travis.sh
     - chmod +x ./bashbrew/bashbrew.sh
     - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
