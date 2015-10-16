@@ -1,4 +1,4 @@
 # maintainer: Ekozan <m@3Ko.fr>
 
-4.1.2: git://github.com/alpine-library/gitlab@38f04e3d7563cd1d3fc3c5e56098830f15c5d195 4.1
-4.1: git://github.com/alpine-library/gitlab@38f04e3d7563cd1d3fc3c5e56098830f15c5d195 4.1
+4.1.2: git://github.com/alpine-library/kibana@38f04e3d7563cd1d3fc3c5e56098830f15c5d195 4.1
+4.1: git://github.com/alpine-library/kibana@38f04e3d7563cd1d3fc3c5e56098830f15c5d195 4.1
