@@ -1,0 +1,5 @@
+# maintainer: Ekozan <m@3Ko.fr>
+
+0.12.16: git://github.com/alpine-library/fluentd@7f91181acb684af5d2fa65906c5cc2080a86d5df 0.12
+0.12: git://github.com/alpine-library/fluentd@7f91181acb684af5d2fa65906c5cc2080a86d5df 0.12
+latest: git://github.com/alpine-library/fluentd@7f91181acb684af5d2fa65906c5cc2080a86d5df 0.12
