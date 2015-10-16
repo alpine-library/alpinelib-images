@@ -36,4 +36,5 @@ set -x
 ./bashbrew.sh list --namespaces="alpine-library" --uniq "${repos[@]}"
 ./bashbrew.sh list --namespaces="alpine-library" "${repos[@]}"
 ./bashbrew.sh build --namespaces="alpine-library" "${repos[@]}"
+docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 ./bashbrew.sh push --namespaces="alpine-library" "${repos[@]}"
