@@ -33,7 +33,7 @@ if [ "${#repos[@]}" -eq 0 ]; then
 fi
 
 set -x
-./bashbrew.sh list --namespaces="alpine-library" --uniq "${repos[@]}"
-./bashbrew.sh list --namespaces="alpine-library" "${repos[@]}"
-./bashbrew.sh build --namespaces="alpine-library" "${repos[@]}"
-./bashbrew.sh push --namespaces="alpine-library" "${repos[@]}"
+./bashbrew.sh list --namespaces="alpinelib" --uniq "${repos[@]}"
+./bashbrew.sh list --namespaces="alpinelib" "${repos[@]}"
+./bashbrew.sh build --namespaces="alpinelib" "${repos[@]}"
+./bashbrew.sh push --namespaces="alpinelib" "${repos[@]}"
