@@ -1,0 +1,7 @@
+# maintainer: Ekozan <m@3Ko.fr>
+
+openjdk-7u85-jre: git://github.com/alpine-library/java@ebb1bae9180c7c281b6c0631bc21f55bf3d89ce1 openjdk-7-jre
+openjdk-7-jre: git://github.com/alpine-library/java@ebb1bae9180c7c281b6c0631bc21f55bf3d89ce1 openjdk-7-jre
+
+openjdk-8u66-jre: git://github.com/alpine-library/java@ebb1bae9180c7c281b6c0631bc21f55bf3d89ce1 openjdk-8-jre
+openjdk-8-jre: git://github.com/alpine-library/java@ebb1bae9180c7c281b6c0631bc21f55bf3d89ce1 openjdk-8-jre
