@@ -1,0 +1,6 @@
+# maintainer: Ekozan <m@3Ko.fr>
+
+3.2: git://github.com/alpine-library/base@bbebaa8df42f85bfa0601704471768b55a571b50 3.2
+latest: git://github.com/alpine-library/base@bbebaa8df42f85bfa0601704471768b55a571b50 3.2
+
+edge: git://github.com/alpine-library/base@9409cab318b73c85ed76dcd48137f8079abe1ffe edge
