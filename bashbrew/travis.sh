@@ -35,5 +35,5 @@ fi
 set -x
 ./bashbrew.sh list --namespaces="alpinelib" --uniq "${repos[@]}"
 ./bashbrew.sh list --namespaces="alpinelib" "${repos[@]}"
-./bashbrew.sh build --namespaces="alpinelib" "${repos[@]}"
+./bashbrew.sh build --namespaces="alpinelib" --printlog "${repos[@]}"
 ./bashbrew.sh push --namespaces="alpinelib" "${repos[@]}"

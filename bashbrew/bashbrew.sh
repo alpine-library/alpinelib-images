@@ -78,6 +78,7 @@ eval set -- "$opts"
 doClone=1
 doBuild=1
 doPush=1
+printLog=
 buildAll=
 onlyUniq=
 while true; do
@@ -85,6 +86,7 @@ while true; do
 	shift
 	case "$flag" in
 		--all) buildAll=1 ;;
+		--printlog) printLog=1 ;;
 		--docker) docker="$1" && shift ;;
 		--help|-h|'-?') usage && exit 0 ;;
 		--library) library="$1" && shift ;;
@@ -364,6 +366,9 @@ while [ "$#" -gt 0 ]; do
 					(( tries-- )) || true
 					if [ $tries -le 0 ]; then
 						echo >&2 "- failed 'docker build'; see $thisLog"
+						if [ "$printLog" ]; then
+							cat  $thisLog
+						fi
 						didFail=1
 						continue 2
 					fi
@@ -419,4 +424,4 @@ while [ "$#" -gt 0 ]; do
 	fi
 done
 
-[ -z "$didFail" ] 
+[ -z "$didFail" ]
