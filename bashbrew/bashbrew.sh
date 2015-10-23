@@ -72,7 +72,7 @@ usage() {
 }
 
 # arg handling
-opts="$(getopt -o 'h?' --long 'all,docker:,help,library:,logs:,namespaces:,no-build,no-clone,no-push,retries:,src:,uniq' -- "$@" || { usage >&2 && false; })"
+opts="$(getopt -o 'h?' --long 'all,docker:,help,library:,logs:,namespaces:,printlog,no-build,no-clone,no-push,retries:,src:,uniq' -- "$@" || { usage >&2 && false; })"
 eval set -- "$opts"
 
 doClone=1
