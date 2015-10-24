@@ -1,0 +1,5 @@
+# maintainer: Ekozan <m@3Ko.fr>
+
+3.2: git://github.com/alpine-library/repobuilder@712c081d8b4f018b52db18daffc9ed76997cff90 3.2
+
+edge: git://github.com/alpine-library/repobuilder@712c081d8b4f018b52db18daffc9ed76997cff90 edge
