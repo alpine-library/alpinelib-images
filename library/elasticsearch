@@ -3,5 +3,5 @@
 1.4.4: git://github.com/alpine-library/elasticsearch@f87cfc1c0bc19043fd208f88e88dbde60b768283 1.4
 1.4: git://github.com/alpine-library/elasticsearch@f87cfc1c0bc19043fd208f88e88dbde60b768283 1.4
 
-2.0.0: git://github.com/alpine-library/elasticsearch@f87cfc1c0bc19043fd208f88e88dbde60b768283 2.0
-2.0: git://github.com/alpine-library/elasticsearch@f87cfc1c0bc19043fd208f88e88dbde60b768283 2.0
+2.0.0: git://github.com/alpine-library/elasticsearch@7b70ffdab4e7fad70d06cec33ee85b9a61200ac7 2.0
+2.0: git://github.com/alpine-library/elasticsearch@7b70ffdab4e7fad70d06cec33ee85b9a61200ac7 2.0
