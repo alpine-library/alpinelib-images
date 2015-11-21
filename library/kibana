@@ -1,4 +1,9 @@
 # maintainer: Ekozan <m@3Ko.fr>
 
-4.1.2: git://github.com/alpine-library/kibana@5485d92554ceb020f38c6f677e5b190875e061c3 4.1
-4.1: git://github.com/alpine-library/kibana@5485d92554ceb020f38c6f677e5b190875e061c3 4.1
+4.1.2: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.1
+4.1: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.1
+
+4.2.0: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
+4.2: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
+4: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
+latest: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
