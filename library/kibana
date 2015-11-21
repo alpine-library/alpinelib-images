@@ -3,7 +3,7 @@
 4.1.2: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.1
 4.1: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.1
 
-4.2.0: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
-4.2: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
-4: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
-latest: git://github.com/alpine-library/kibana@e91b5f75e3288c9822235022b06fd7ca1f84c10d 4.2
+4.2.0: git://github.com/alpine-library/kibana@d4b8d62c1e291dcd0be260fee3d27b4d41688068 4.2
+4.2: git://github.com/alpine-library/kibana@d4b8d62c1e291dcd0be260fee3d27b4d41688068 4.2
+4: git://github.com/alpine-library/kibana@d4b8d62c1e291dcd0be260fee3d27b4d41688068 4.2
+latest: git://github.com/alpine-library/kibana@d4b8d62c1e291dcd0be260fee3d27b4d41688068 4.2
