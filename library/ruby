@@ -1,6 +1,6 @@
 # maintainer: Ekozan <m@3Ko.fr>
 
-2.2.3: git://github.com/alpine-library/ruby@317cf101b29635d671ad8b2aaf36b92c021fbb6f 2.2
-2.2: git://github.com/alpine-library/ruby@317cf101b29635d671ad8b2aaf36b92c021fbb6f 2.2
-2: git://github.com/alpine-library/ruby@317cf101b29635d671ad8b2aaf36b92c021fbb6f 2.2
-latest: git://github.com/alpine-library/ruby@317cf101b29635d671ad8b2aaf36b92c021fbb6f 2.2
+2.2.4: git://github.com/alpine-library/ruby@b926f7543b3c22f11ef1ebbcf422cdb35ffcf5ba 2.2
+2.2: git://github.com/alpine-library/ruby@b926f7543b3c22f11ef1ebbcf422cdb35ffcf5ba 2.2
+2: git://github.com/alpine-library/ruby@b926f7543b3c22f11ef1ebbcf422cdb35ffcf5ba 2.2
+latest: git://github.com/alpine-library/ruby@b926f7543b3c22f11ef1ebbcf422cdb35ffcf5ba 2.2
