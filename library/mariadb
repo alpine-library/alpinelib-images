@@ -1,0 +1,5 @@
+# maintainer: Ekozan <m@3Ko.fr>
+
+10.1.9-r2: git://github.com/alpine-library/mariadb@f16fbfc98995ab15d1fba539669bb10f2e2e3c7a 10.1
+10.1.9: git://github.com/alpine-library/mariadb@f16fbfc98995ab15d1fba539669bb10f2e2e3c7a 10.1
+10.1: git://github.com/alpine-library/mariadb@f16fbfc98995ab15d1fba539669bb10f2e2e3c7a 10.1
