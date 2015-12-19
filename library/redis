@@ -1,7 +1,6 @@
 # maintainer: Ekozan <m@3Ko.fr>
 
-3.0.2-r0: git://github.com/alpine-library/redis@57ebefa529b0d4c31776233388bf3224699a72aa 3.0
-3.0.2: git://github.com/alpine-library/redis@57ebefa529b0d4c31776233388bf3224699a72aa 3.0
-3.0: git://github.com/alpine-library/redis@57ebefa529b0d4c31776233388bf3224699a72aa 3.0
-3: git://github.com/alpine-library/redis@57ebefa529b0d4c31776233388bf3224699a72aa 3.0
-latest: git://github.com/alpine-library/redis@57ebefa529b0d4c31776233388bf3224699a72aa 3.0
+3.0.5: git://github.com/alpine-library/redis@082c6af77a3185ae74c2ce69a024e80804ea8273 3.0
+3.0: git://github.com/alpine-library/redis@082c6af77a3185ae74c2ce69a024e80804ea8273 3.0
+3: git://github.com/alpine-library/redis@082c6af77a3185ae74c2ce69a024e80804ea8273 3.0
+latest: git://github.com/alpine-library/redis@082c6af77a3185ae74c2ce69a024e80804ea8273 3.0
